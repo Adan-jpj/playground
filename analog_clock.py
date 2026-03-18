@@ -23,7 +23,7 @@ def draw_clock_face():
         angle = math.radians(i * 30)
         x = center_x + clock_radius * 0.82 * math.sin(angle)
         y = center_y - clock_radius * 0.82 * math.cos(angle)
-        canvas.create_text(x, y, text=str(i), fill='cyan', font=('Arial', 14, 'bold'))
+        canvas.create_text(x, y, text=str(i), fill='cyan', font=('"Helvetica', 14, 'bold'))
 
         # Optional: Tick marks
         x_outer = center_x + clock_radius * 0.9 * math.sin(angle)
