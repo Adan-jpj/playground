@@ -5,7 +5,7 @@ import time
 root = tk.Tk()
 root.title("Analog Clock with Numbers")
 root.geometry("400x400")
-root.configure(bg="black")
+root.configure(bg="blue")
 
 canvas = tk.Canvas(root, width=400, height=400, bg='black', highlightthickness=0)
 canvas.pack()
